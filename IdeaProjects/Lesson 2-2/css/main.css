@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+}
+.main {
+    display: flex;
+    background: lightblue;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.row {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 85vw;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    display: flex;
+    text-align: justify;
+}
+
+.first-wiget {
+    width: 85vw;
+    height: 250px;
+    margin-top: 20px;
+    border: darkblue solid;
+    padding: 10px;
+    box-sizing: border-box;
+    background: lightyellow;
+}
+
+.innerbox {
+    border: darkblue solid;
+    box-sizing: border-box;
+    padding: 10px;
+    background: lightyellow;
+}
+.main-wiget {
+    width: 85vw;
+    height: 400px;
+    margin-bottom: 20px;
+    border: darkblue solid;
+    padding: 10px;
+    box-sizing: border-box;
+    background: lightyellow;
+}

@@ -1,0 +1,85 @@
+html, body {
+margin: 0;
+}
+
+.primary {
+    width: 100vw;
+    height: 100vh;
+    background: lightgrey;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.title {
+    width: 100vw ;
+    border: darkblue solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    background: lightblue;
+}
+
+.innerbox {
+    height: 500px;
+    width: 350px;
+    padding: 10px;
+    background: blue;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.one {
+    height: calc(4/5*100% - 10px);
+    background: chartreuse;
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: start;
+    border-radius: 10px;
+}
+
+.two {
+    display: flex;
+    border: white solid;
+    padding: 5px;
+    margin-top: 30px;
+    font-size: 1.5em;
+    justify-content: center;
+    background: firebrick;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+p {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    background: lightskyblue;
+    padding: 5px;
+    text-align: left;
+    border-radius: 10px
+}
+
+h2 {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background: aqua;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px
+}
