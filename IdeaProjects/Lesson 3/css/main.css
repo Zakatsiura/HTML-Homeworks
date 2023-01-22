@@ -14,17 +14,29 @@ body {
 }
 .upper-bg {
     width: 100vw;
-    height: 20vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background: darkgoldenrod;
+    background: #4fb2ff;
     box-sizing: border-box;
     border-bottom: darkblue solid;
     padding: 10px;
     flex-wrap: wrap;
     row-gap: 5px;
     column-gap: 20px;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0;
+    background: #4b5cff;
+    box-sizing: border-box;
+    border: darkblue solid;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .upper-text{
     width: 300px;
@@ -37,13 +49,14 @@ body {
     border: darkblue solid;
     border-radius: 10px;
     box-sizing: border-box;
+    background: #4b5cff;
     padding: 5px;
     row-gap: 25px;
     column-gap: 20px;
 }
 .outer-box {
     width: 350px;
-    height: 550px;
+    height: 600px;
     display: flex;
     background: lightcyan;
     box-sizing: border-box;
@@ -90,7 +103,7 @@ body {
     display: flex;
     box-sizing: border-box;
     border-top: darkblue solid;
-    background: lightsalmon;
+    background: #4fb2ff;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
