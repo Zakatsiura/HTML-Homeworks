@@ -30,7 +30,7 @@ body {
     height: 120px;
     border-radius: 50%;
     margin: 0;
-    background: #4b5cff;
+    background: lightcyan;
     box-sizing: border-box;
     border: darkblue solid;
     display: flex;
@@ -97,7 +97,7 @@ body {
 }
 .bottom-bg {
     width: 100vw;
-    height: 8vh;
+    height: 9vh;
     margin: 0;
     padding: 10px;
     display: flex;
