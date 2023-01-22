@@ -5,7 +5,9 @@ body {
 .main {
     width: 100vw;
     display: flex;
-    background: whitesmoke;
+    /*background: whitesmoke;*/
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
