@@ -27,6 +27,12 @@ body {
     row-gap: 5px;
     column-gap: 20px;
 }
+@media screen and (min-width: 0) and (max-width: 800px) {
+    .upper-bg {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
 .logo {
     width: 120px;
     height: 120px;
@@ -73,8 +79,9 @@ body {
     width: 100px;
     height: 100px;
     display: flex;
-    margin-top: -50px;
     border-radius: 50%;
+    position: relative;
+    bottom: 50px;
     box-sizing: border-box;
     background: whitesmoke;
     border: darkblue solid;
@@ -89,6 +96,8 @@ body {
     width: 180px;
     height: 40px;
     display: flex;
+    position: relative;
+    top: 25px;
     background: lightblue;
     box-sizing: border-box;
     border: darkblue solid;
