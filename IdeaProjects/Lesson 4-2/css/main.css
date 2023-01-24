@@ -11,7 +11,7 @@ body {
 
 .upper-box {
     width: 90vw;
-    height: 200px;
+    height: 20vh;
     background: #4b5cff;
 }
 
@@ -32,7 +32,7 @@ body {
 
 .main-right {
     width: 25vw;
-    height: 520px;
+    height: 52vh;
     background: yellow;
     margin-top: 10px;
 }
@@ -45,13 +45,13 @@ body {
 
 .main-left-upper {
     width: 60vw;
-    height: 300px;
+    height: 30vh;
     background: lightsalmon;
 }
 
 .block {
     width: 15vw;
-    height: 200px;
+    height: 20vh;
     background: darkgoldenrod;
 }
 
